@@ -12,12 +12,13 @@ diferentes tamaños de pantalla.
 - El área de contenido debe implementar un grid que responda de manera
 adecuada a pantallas pequeñas (1 columna), medianas (2 columnas) y grandes (4
 columnas).
-
+---
+## Propuesta
 Para este ejercicio, lo que quisiera destacar es el uso de las propiedad display:grid de css. 
 
 Para ello, podemos podemos usarla de la siguiente manera:
 
-```
+```css
 .elemento-padre{
     display: grid;
     grid-template-colums: repeat(NumColumnas, 1fr)

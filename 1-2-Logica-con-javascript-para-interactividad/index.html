@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>1-1 Maquetado Avanzado con CSS y HTML</title>
+    <link rel="stylesheet" href="styles.css"></link>
+</head>
+<body>
+    <div class="topbar">
+        <div class="logo">Tienda Virtual</div>
+        <div class="carrito">Carrito: 0</div>
+    </div>
+    <div class="mainContainer">
+        <div class="sidebar">
+            <div class="sidebarPromos">
+                <div class="promo">Compra nuestra nueva linea de calzado<div>></div></div>
+                <div class="promo">No olvides canjear tus copones para obtener el mejor precio<div>></div></div>
+                <div class="promo">Descuentos por venta de primevera<div>></div></div>
+            </div>
+        </div>
+        <div class="content">
+            <div class="products">
+                <div class="itemCard">
+                    <img class="itemImage" src="https://images.pexels.com/photos/90946/pexels-photo-90946.jpeg"/>
+                    <div class="itemInfo">
+                        <p class="itemName">Camara Fotografica Maravillosa</p>
+                        <p class="itemPrice">$4,000.00</p>
+                        <button class="buyButton" onclick="carrito('Camara Fotografica Maravillosa', 4000)">Agregar al carrito</button>
+                    </div>
+                </div>
+                                
+                <div class="itemCard">
+                    <img class="itemImage" src="https://images.pexels.com/photos/2783873/pexels-photo-2783873.jpeg"/>
+                    <div class="itemInfo">
+                        <p class="itemName">Reloj De Alta Gama</p>
+                        <p class="itemPrice">$12,000.00</p>
+                        <button class="buyButton" onclick="carrito('Reloj De Alta Gama', 12000)">Agregar al carrito</button>
+                    </div>
+                </div>
+                
+                <div class="itemCard">
+                    <img class="itemImage" src="https://images.pexels.com/photos/2969318/pexels-photo-2969318.jpeg"/>
+                    <div class="itemInfo">
+                        <p class="itemName">Converse</p>
+                        <p class="itemPrice">$1,200.00</p>
+                        <button class="buyButton" onclick="carrito('Converse', 12000)">Agregar al carrito</button>
+                    </div>
+                </div>
+                
+                <div class="itemCard">
+                    <img class="itemImage" src="https://images.pexels.com/photos/3731256/pexels-photo-3731256.jpeg"/>
+                    <div class="itemInfo">
+                        <p class="itemName">Mochila Escolar</p>
+                        <p class="itemPrice">$1,500.00</p>
+                        <button class="buyButton" onclick="carrito('Mochila Escolar', 15000)">Agregar al carrito</button>
+                    </div>
+                </div>
+
+                <div class="itemCard">
+                    <img class="itemImage" src="https://images.pexels.com/photos/1537671/pexels-photo-1537671.jpeg"/>
+                    <div class="itemInfo">
+                        <p class="itemName">Tenis Deportivos</p>
+                        <p class="itemPrice">$2,000.00</p>
+                        <button class="buyButton" onclick="carrito('Tenis Deportivos', 2000)">Agregar al carrito</button>
+                    </div>
+                </div>
+                
+                <div class="itemCard">
+                    <img class="itemImage" src="https://images.pexels.com/photos/5861322/pexels-photo-5861322.jpeg"/>
+                    <div class="itemInfo">
+                        <p class="itemName">Mouse para oficina</p>
+                        <p class="itemPrice">$1,300.00</p>
+                        <button class="buyButton" onclick="carrito('Mouse para oficina', 13000)">Agregar al carrito</button>
+                    </div>
+                </div>
+
+                <div class="itemCard">
+                    <img class="itemImage" src="https://images.pexels.com/photos/26889796/pexels-photo-26889796/free-photo-of-apple-manzana-iphone-escritorio.jpeg"/>
+                    <div class="itemInfo">
+                        <p class="itemName">Teclado</p>
+                        <p class="itemPrice">$25,000.00</p>
+                        <button class="buyButton" onclick="carrito('Teclado', 25000)">Agregar al carrito</button>
+                    </div>
+                </div>
+
+                <div class="itemCard">
+                    <img class="itemImage" src="https://images.pexels.com/photos/29656901/pexels-photo-29656901.jpeg"/>
+                    <div class="itemInfo">
+                        <p class="itemName">Taza de Cerámica</p>
+                        <p class="itemPrice">$800.00</p>
+                        <button class="buyButton" onclick="carrito('Taza de Cerámica', 800)">Agregar al carrito</button>
+                    </div>
+                </div>
+            </div>  
+        </div>
+    </div>
+</body>
+<script>
+    let carritoItems = [];
+
+    function carrito(nombre, precio){
+        const producto = {
+            nombre: nombre,
+            precio: precio
+        }
+        carritoItems.push(producto);
+        alert("Articulo Añadido al carrito \n Total de Articulos añadidos: " + carritoItems.length);
+        console.log(carritoItems);
+    }
+
+</script>
+</html>
