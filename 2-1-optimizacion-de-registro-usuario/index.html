@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <title>Registro de usuario</title>
+</head>
+<body>
+  <form onsubmit="return validateForm()">
+    <h1>Registrate</h1>
+
+    <div id="error-messages" style="color: red;"></div>
+
+    <div>
+      <label>Nombre</label>
+      <input type="text" id="name"> 
+    </div>
+
+    <div>
+      <label>Correo Electronico</label>
+      <input id="email"> 
+    </div>
+
+    <div>
+      <label>Contraseña</label>
+      <input type="password" id="password"> 
+    </div>
+
+    <button type="submit">Registrate</button>
+  </form>
+
+  <script src="signUp.js"></script>
+</body>
+</html>
