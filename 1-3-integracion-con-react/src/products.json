@@ -1,0 +1,50 @@
+[
+  {
+    "id": 1,
+    "name": "Camara Fotografica Maravillosa",
+    "price": 4000,
+    "image": "https://images.pexels.com/photos/90946/pexels-photo-90946.jpeg"
+  },
+  {
+    "id": 2,
+    "name": "Reloj De Alta Gama",
+    "price": 12000,
+    "image": "https://images.pexels.com/photos/2783873/pexels-photo-2783873.jpeg"
+  },
+  {
+    "id": 3,
+    "name": "Converse",
+    "price": 12000,
+    "image": "https://images.pexels.com/photos/2969318/pexels-photo-2969318.jpeg"
+  },
+  {
+    "id": 4,
+    "name": "Mochila Escolar",
+    "price": 1500,
+    "image": "https://images.pexels.com/photos/3731256/pexels-photo-3731256.jpeg"
+  },
+  {
+    "id": 5,
+    "name": "Tenis Deportivos",
+    "price": 2000,
+    "image": "https://images.pexels.com/photos/1537671/pexels-photo-1537671.jpeg"
+  },
+  {
+    "id": 6,
+    "name": "Mouse para oficina",
+    "price": 1300,
+    "image": "https://images.pexels.com/photos/5861322/pexels-photo-5861322.jpeg"
+  },
+  {
+    "id": 7,
+    "name": "Teclado",
+    "price": 25000,
+    "image": "https://images.pexels.com/photos/26889796/pexels-photo-26889796/free-photo-of-apple-manzana-iphone-escritorio.jpeg"
+  },
+  {
+    "id": 8,
+    "name": "Taza de Cerámica",
+    "price": 800,
+    "image": "https://images.pexels.com/photos/29656901/pexels-photo-29656901.jpeg"
+  }
+]

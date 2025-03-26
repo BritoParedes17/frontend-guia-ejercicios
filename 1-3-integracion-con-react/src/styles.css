@@ -1,0 +1,18 @@
+
+nav{
+  background-color: #e0e0e0;
+  padding: 20px 30px 20px 30px;
+}
+
+.sidebar{
+  background-color: #a7a7a7;
+  border: solid 1px #838383;
+  transition: 0.5s;
+}
+.sidebar:hover {
+  transform: translateX(-60%);
+}
+
+.content {
+  width: 100%;
+}
